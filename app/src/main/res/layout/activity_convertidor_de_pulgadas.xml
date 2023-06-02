@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".convertidor_de_pulgadas">
+
+    <AbsoluteLayout
+        android:id="@+id/ly"
+        android:layout_width="441dp"
+        android:layout_height="804dp"
+        android:background="#851515"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <Button
+            android:id="@+id/btn_atras"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="106dp"
+            android:layout_y="31dp"
+            android:text="Regresar" />
+
+        <TextView
+            android:id="@+id/lb_resultadoMetro"
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:layout_x="32dp"
+            android:layout_y="394dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lb_cant_digitar"
+            android:layout_width="157dp"
+            android:layout_height="40dp"
+            android:layout_x="20dp"
+            android:layout_y="111dp"
+            android:text="Pulgadas"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_metro"
+            android:layout_width="328dp"
+            android:layout_height="92dp"
+            android:layout_x="22dp"
+            android:layout_y="160dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:text="Digite la cantidad aqui" />
+
+        <Button
+            android:id="@+id/brtn_invertir_metro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="126dp"
+            android:layout_y="269dp"
+            android:text="Invertir" />
+
+        <TextView
+            android:id="@+id/lb_result_metro"
+            android:layout_width="157dp"
+            android:layout_height="40dp"
+            android:layout_x="33dp"
+            android:layout_y="335dp"
+            android:text="Metro"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_limpiar"
+            android:layout_width="141dp"
+            android:layout_height="69dp"
+            android:layout_x="212dp"
+            android:layout_y="464dp"
+            android:text="Limpiar" />
+
+        <Button
+            android:id="@+id/btn_convertir_Metro"
+            android:layout_width="124dp"
+            android:layout_height="67dp"
+            android:layout_x="32dp"
+            android:layout_y="466dp"
+            android:text="Convertir" />
+
+    </AbsoluteLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

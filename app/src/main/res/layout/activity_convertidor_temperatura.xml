@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#851515"
+    tools:context=".Convertidor_Temperatura">
+
+    <AbsoluteLayout
+        android:id="@+id/ly"
+        android:layout_width="435dp"
+        android:layout_height="805dp"
+        android:background="#851515"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/btn_limpiar"
+            android:layout_width="141dp"
+            android:layout_height="69dp"
+            android:layout_x="212dp"
+            android:layout_y="423dp"
+            android:text="Limpiar" />
+
+        <TextView
+            android:id="@+id/lb_undidad_a_covertir"
+            android:layout_width="180dp"
+            android:layout_height="61dp"
+            android:layout_x="37dp"
+            android:layout_y="82dp"
+            android:gravity="center"
+            android:text="Celsius"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txt_cantidad_temperatura"
+            android:layout_width="327dp"
+            android:layout_height="65dp"
+            android:layout_x="37dp"
+            android:layout_y="147dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:text="Digite la cantidad aqui" />
+
+        <Button
+            android:id="@+id/btn_invertir"
+            android:layout_width="143dp"
+            android:layout_height="64dp"
+            android:layout_x="129dp"
+            android:layout_y="218dp"
+            android:text="Invertir" />
+
+        <TextView
+            android:id="@+id/lb_unidadResultado_temperatura"
+            android:layout_width="188dp"
+            android:layout_height="49dp"
+            android:layout_x="32dp"
+            android:layout_y="291dp"
+            android:gravity="center"
+            android:text="Fahrenheit"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lb_resultado_temperatura"
+            android:layout_width="322dp"
+            android:layout_height="73dp"
+            android:layout_x="33dp"
+            android:layout_y="342dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_convertir_temperatura"
+            android:layout_width="141dp"
+            android:layout_height="69dp"
+            android:layout_x="36dp"
+            android:layout_y="423dp"
+            android:text="Convertir" />
+
+        <Button
+            android:id="@+id/btn_atras_temp"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="112dp"
+            android:layout_y="18dp"
+            android:text="Regresar" />
+
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

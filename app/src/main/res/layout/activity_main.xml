@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout"
+        android:layout_width="415dp"
+        android:layout_height="857dp"
+        android:background="#851515"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="Convertidor de Unidades"
+                android:textAlignment="center"
+                android:textColor="#FAF6F6"
+                android:textSize="60sp"
+                android:textStyle="italic"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_acerca"
+            android:layout_width="389dp"
+            android:layout_height="96dp"
+            android:layout_x="14dp"
+            android:layout_y="377dp"
+            android:text="Acerca de la App" />
+
+        <Button
+            android:id="@+id/btn_convertir_temperatura"
+            android:layout_width="180dp"
+            android:layout_height="69dp"
+            android:layout_x="222dp"
+            android:layout_y="292dp"
+            android:text="Convertidor Metrico" />
+
+        <Button
+            android:id="@+id/btn_invertir"
+            android:layout_width="178dp"
+            android:layout_height="70dp"
+            android:layout_x="14dp"
+            android:layout_y="292dp"
+            android:text="Convertidor de Temperatura" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_x="3dp"
+            android:layout_y="175dp"
+            android:gravity="center"
+            android:text="MENU"
+            android:textAlignment="center"
+            android:textColor="#F8F3F3"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

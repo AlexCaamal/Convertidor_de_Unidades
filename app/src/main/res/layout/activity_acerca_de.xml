@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#851515"
+    tools:context=".Acerca_de">
+
+    <AbsoluteLayout
+        android:id="@+id/ly"
+        android:layout_width="445dp"
+        android:layout_height="775dp"
+        android:background="#851515"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/btn_atras_acerca"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="95dp"
+            android:layout_y="27dp"
+            android:text="Regresar" />
+
+        <TextView
+            android:id="@+id/lb_resultado_temperatura"
+            android:layout_width="322dp"
+            android:layout_height="73dp"
+            android:layout_x="37dp"
+            android:layout_y="151dp"
+            android:text="Oziel Antonio Medina Canul"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lb_unidadResultado_temperatura"
+            android:layout_width="188dp"
+            android:layout_height="49dp"
+            android:layout_x="36dp"
+            android:layout_y="100dp"
+            android:gravity="center"
+            android:text="Programador: "
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lb_resultado2"
+            android:layout_width="322dp"
+            android:layout_height="73dp"
+            android:layout_x="35dp"
+            android:layout_y="275dp"
+            android:text="al057312@uacam.mx"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lb_unidadResultado3"
+            android:layout_width="188dp"
+            android:layout_height="49dp"
+            android:layout_x="32dp"
+            android:layout_y="348dp"
+            android:gravity="center"
+            android:text="Carrera:"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lb_resultado3"
+            android:layout_width="322dp"
+            android:layout_height="73dp"
+            android:layout_x="33dp"
+            android:layout_y="399dp"
+            android:text="Sistemas Computacionales"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="167dp"
+            android:layout_height="114dp"
+            android:layout_x="133dp"
+            android:layout_y="480dp"
+            app:srcCompat="@mipmap/ic_launcher_logo_round" />
+
+        <TextView
+            android:id="@+id/lb_unidadResultado2"
+            android:layout_width="188dp"
+            android:layout_height="49dp"
+            android:layout_x="34dp"
+            android:layout_y="224dp"
+            android:gravity="center"
+            android:text="Correo: "
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </AbsoluteLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
